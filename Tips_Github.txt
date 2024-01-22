@@ -1,0 +1,9 @@
+Main dc hiểu như 1 nhánh rễ chính, cái branch khác chỉ là phụ, nếu muốn merge từ branch khác với main thì branch khác phải dựa trên main (có nghĩa là có những file giống main thì mới có thể merge dc). Từ đó ta làm như sau:
+
+- Khi tạo 1 repo mới
+- Mình cần push project của mình lên
+- Push theo branch của mình và tạo 1 branch mới trên github
+- Sau khi push thành công, như đã nói trên, mình cần có những file giống main (main có README.md), mình tạo 1 file giống vậy và add lên branch của mình
+- git add README.md (commit, push gì đó)
+- Sau khi giống main, tại branch của mình, git pull origin main, sau đó push origin <branch của mình>
+- Cuối cùng là git merge main.

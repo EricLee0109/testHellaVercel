@@ -1,0 +1,13 @@
+Steps to setup github
+
+1: git init
+2: git remote add <link>
+3: git pull origin main (vì cần đây lên main trước, và phải pull vì cho thấy mình đang ở nhánh đó)
+4: git add .
+5: git commit -m "text"
+6: git push origin main
+nó sẽ báo đỏ error: failed to push some refs to 'https://github.com/EricLee0109/Exercise_pushDemo.git'
+không tìm thấy:
+vì branch hiện tại là master, nếu muốn rename thì
+7: git branch -m master main
+8: Sau đó push lên như bth vì master -> main
